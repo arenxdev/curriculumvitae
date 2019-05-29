@@ -53,9 +53,9 @@ const About = ({ avatar, name, profession, bio, address, social }) => (
         <AboutName>
           <AboutH2>{name}</AboutH2>
         </AboutName>
-        <AboutProffession>
-          <p>{profession}</p>
-        </AboutProffession>
+        <div className="about-profession">
+          <AboutProffession>{profession}</AboutProffession>
+        </div>
         <div className="about-desc">
           <AboutBio>{bio}</AboutBio>
         </div>

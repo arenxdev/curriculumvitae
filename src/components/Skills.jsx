@@ -6,6 +6,9 @@ const SkillsContainer = styled.div`
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
   grid-row-gap: 0.5em;
+  @media only screen and (max-width: 767px) {
+    grid-template-columns: 1fr;
+  }
 `;
 const SkillsH5 = styled.h5`
   margin: .5em 0;

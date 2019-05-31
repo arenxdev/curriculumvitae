@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 import Main from '../components/Main';
 import Sidebar from '../components/Sidebar';
 import Info from '../components/Info';
-import About from '../components/About';
+import About from '../components/Abt';
 import Education from '../components/Education';
 import Experience from '../components/Experience';
 import Certificates from '../components/Certificates';
